@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.nav-container {
+  background-color: #ffffff33;
+  height: 100px;
+}
+.image-name-container {
+  display: flex;
+  padding: 20px;
+  margin-left: 60px;
+}
+.emoji-game-img {
+  height: 30px;
+  margin-top: 13px;
+}
+.emoji-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.image-score-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  padding-top: 20px;
+}
+.scores {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding-right: 20px;
+}

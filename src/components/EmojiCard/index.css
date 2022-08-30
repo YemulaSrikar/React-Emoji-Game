@@ -1,0 +1,20 @@
+/* Write your code here. */
+
+.emojis-cont {
+  padding: 05px;
+  margin: 15px;
+  list-style-type: none;
+}
+@media screen and (max-width: 575px) {
+  .emojis-cont {
+    height: 30px;
+    width: 30px;
+  }
+}
+.emoji-button {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #ffffff33;
+}

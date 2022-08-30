@@ -1,0 +1,55 @@
+/* Write your code here. */
+
+.win-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-lose-img-container {
+  display: flex;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  width: 40%;
+  background-color: #ffffff33;
+  border-radius: 10px;
+}
+.win-lose-status-container {
+  padding: 30px;
+  text-align: center;
+}
+.won-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+.status-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+.score {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+}
+.play-again-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  height: 30px;
+  width: 80px;
+  border-width: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+.win-loss-img {
+  height: 280px;
+  padding-top: 15px;
+}
